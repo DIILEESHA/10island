@@ -35,7 +35,7 @@ const Header = () => {
       <div className="video">
         <video autoPlay playsInline muted loop crossOrigin="anonymous">
           <source
-            src="https://cdn.sanity.io/files/f3tpxs09/production/f7c533514e697633ae912646f5b296ee600340a9.mp4"
+            src="https://10island.vercel.app/"
             type="video/mp4"
           />
         </video>
