@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
 import SentenceAnimation from "./sentences";
+import vide from '../video/vide.mp4'
 
 const Header = () => {
   return (
@@ -35,7 +36,7 @@ const Header = () => {
       <div className="video">
         <video autoPlay playsInline muted loop crossOrigin="anonymous">
           <source
-            src="https://10island.vercel.app/video"
+            src={vide}
             type="video/mp4"
           />
         </video>
