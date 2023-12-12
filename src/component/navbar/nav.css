@@ -1,0 +1,45 @@
+.nav_container {
+  display: flex;
+  height: 110px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 50px;
+  background-color: #f2f2f2;
+  color: #333;
+}
+.nav_left {
+  flex: 5;
+}
+.nav_middle {
+  flex: 3;
+}
+.nav_right {
+  position: relative;
+  flex: 2;
+}
+
+.right_ul .right_li {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  text-transform: uppercase;
+  font-weight: 300;
+  cursor: pointer;
+  font-size: 12px;
+}
+.nav_ul {
+  display: flex;
+  gap: 10px;
+}
+
+.nav_ul > li {
+  list-style-type: none;
+  font-weight: 300;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 12px;
+  /* justify-content: flex-end; */
+  display: flex;
+  transform: translateY(0%) translateZ(0px);
+opacity: 1;
+}

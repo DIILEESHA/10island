@@ -1,0 +1,40 @@
+/* CursorTrail.css */
+
+.cursor-trail {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .trail-item {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: transform 0.5s, opacity 1s;
+    transform: scale(0);
+    opacity: 0;
+  }
+  
+  .trail-item.heart {
+    width: 20px;
+    height: 20px;
+    background-color: red; /* Adjust color as needed */
+    clip-path: polygon(
+      50% 15%,
+      75% 0%,
+      100% 33%,
+      75% 66%,
+      50% 100%,
+      25% 66%,
+      0% 33%,
+      25% 0%
+    );
+  }
+  
+  .trail-item.visible {
+    transform: scale(1);
+    opacity: 1;
+  }
+  
