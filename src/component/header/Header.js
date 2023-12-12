@@ -35,7 +35,7 @@ const Header = () => {
       <div className="video">
         <video autoPlay playsInline muted loop crossOrigin="anonymous">
           <source
-            src="https://10island.vercel.app/"
+            src="https://10island.vercel.app/video"
             type="video/mp4"
           />
         </video>
