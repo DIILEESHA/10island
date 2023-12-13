@@ -35,7 +35,11 @@ const SentenceAnimation = () => {
   }, []);
 
   return (
-    <div className="sentence-container">
+    <div
+      className="sentence-container"
+      data-aos="fade-up-right"
+      data-aos-duration="2000"
+    >
       <div className="senta">
         <h4 className={`sentence jh ${currentIndex === 0 ? "show" : "hide"}`}>
           {sentences[0]}
