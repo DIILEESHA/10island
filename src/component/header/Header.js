@@ -118,7 +118,7 @@ const Header = () => {
       <div className={`header_grid  ${animationComplete ? "fade-in" : ""}`}>
         <div
           className="header_sub_grid "
-          data-aos="fade-up"
+          data-aos="fade-up-right"
           data-aos-duration="2000"
         >
           <h2 className="grid_text ">
@@ -136,7 +136,8 @@ const Header = () => {
         </div>
         <div
           className="header_sub_grid"
-          data-aos="flip-right"
+          data-aos="fade-up-left"
+
           data-aos-duration="2000"
         >
           <h2 className="grid_text  lk">
