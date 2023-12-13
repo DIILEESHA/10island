@@ -70,20 +70,13 @@
 
 .video-container {
   position: relative;
-  margin-top: 40px;
   width: 100%;
   overflow: hidden;
-  border: 1px dotted solid #740606;
   border-radius: 5px;
+  margin-top: 10px;
   padding: 10px;
   /* animation: float 6s ease-in-out infinite; */
-  background: rgb(181, 181, 186);
-  background: linear-gradient(
-    90deg,
-    rgba(181, 181, 186, 1) 0%,
-    rgba(209, 209, 223, 1) 35%,
-    rgba(112, 116, 117, 1) 100%
-  );
+ 
 }
 
 .header_sub_grid {
@@ -199,7 +192,7 @@ video {
   /* opacity: 0; */
   transform: scale(1);
   transition: transform 2s ease-in-out, opacity 2s ease-in-out;
-  width: 100%; /* Ensure each sentence takes the full width */
+  width: 100%; 
 }
 
 .dg,
@@ -220,7 +213,7 @@ video {
   opacity: 0;
 }
 
-/* ImageCard.css */
+
 
 .image-card {
   position: relative;
