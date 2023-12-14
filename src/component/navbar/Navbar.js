@@ -3,11 +3,13 @@ import "./nav.css";
 
 const Navbar = () => {
   return (
-    <div className="nav_container "  >
-      <div  className="nav_left" >
-        <div data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom">
-</div>
+    <div
+      className="nav_container "
+      data-aos="fade-down"
+      data-aos-duration="2000"
+    >
+      <div className="nav_left">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom"></div>
         <h2 className="nav_title">14islands</h2>
       </div>
       <div className="nav_middle">

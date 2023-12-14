@@ -49,6 +49,9 @@ const Mainserve = () => {
         }`}
         animate={controls}
         initial={{ y: 50, opacity: -1, x: 0 }}
+        style={
+          {zIndex:1}
+        }
       >
         <div className="header_sub">
           <div
@@ -86,65 +89,74 @@ const Mainserve = () => {
         </div>
       </motion.div>
 
-      <div
-        className="main_card"
-        
-      >
-        <div className="sub_img_card 
+      <div className="main_card">
+        <div
+          className="sub_img_card 
         
         "
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-center "
-         data-aos-duration="2000"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-center "
+          data-aos-duration="2000"
+        >
+
+<img src="https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2Fe73b68935430755ad6430ac804d7a5bd31143186-1656x1106.jpg%3Frect%3D0%2C1%2C1656%2C1104%26w%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=16&q=75" alt="" />
+
+        </div>
+        <div
+          className="sub_img_card 
+        
+        "
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-center "
+          data-aos-duration="2000"
         ></div>
-        <div className="sub_img_card 
+        <div
+          className="sub_img_card 
         
         "
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-center "
-         data-aos-duration="2000"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-center "
+          data-aos-duration="2000"
         ></div>
-        <div className="sub_img_card 
+        <div
+          className="sub_img_card 
         
         "
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-center "
-         data-aos-duration="2000"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-center "
+          data-aos-duration="2000"
         ></div>
-        <div className="sub_img_card 
+        <div
+          className="sub_img_card 
         
         "
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-center "
-         data-aos-duration="2000"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-center "
+          data-aos-duration="2000"
         ></div>
-        <div className="sub_img_card 
+        <div
+          className="sub_img_card 
         
         "
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-center "
-         data-aos-duration="2000"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-center "
+          data-aos-duration="2000"
         ></div>
-        <div className="sub_img_card 
+        <div
+          className="sub_img_card 
         
         "
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-center "
-         data-aos-duration="2000"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-center "
+          data-aos-duration="2000"
         ></div>
-        <div className="sub_img_card 
+        <div
+          className="sub_img_card 
         
         "
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-center "
-         data-aos-duration="2000"
-        ></div>
-        <div className="sub_img_card 
-        
-        "
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-center "
-         data-aos-duration="2000"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-center "
+          data-aos-duration="2000"
         ></div>
       </div>
     </div>

@@ -3,6 +3,7 @@ import { motion, useAnimation, useCycle } from "framer-motion";
 import { useDrag } from "react-use-gesture";
 import "./header.css";
 import vide from "../video/vide.mp4";
+import ParticleComponent from "../particle/ParticleComponent";
 
 const Header = () => {
   const [animationComplete, setAnimationComplete] = useState(false);
@@ -73,6 +74,12 @@ const Header = () => {
       {...bind()}
       style={{ zIndex: 1 }}
     >
+
+
+      <div >
+
+      <ParticleComponent />
+      </div>
       <div className="header_sub">
         <div
           className={`header_left ${animationComplete ? "fade-in" : ""}`}
@@ -84,6 +91,7 @@ const Header = () => {
           whileHover="hover"
           variants={textVariants}
           onClick={() => setShowImages(true)}
+        
         >
           <h3
             className="header_title"
@@ -121,9 +129,7 @@ const Header = () => {
           data-aos="fade-up-right"
           data-aos-duration="2000"
         >
-          <h2 className="grid_text ">
-            design
-          </h2>
+          <h2 className="grid_text ">design</h2>
         </div>
         <div className="header_sub_grid">
           <h2 className="grid_text"></h2>
@@ -131,18 +137,15 @@ const Header = () => {
         <div className="header_sub_grid">
           <h2 className="grid_text sm ">
             &
-            {/* &<div className="tube"></div> */}
           </h2>
         </div>
         <div
           className="header_sub_grid"
           data-aos="fade-up-left"
-
           data-aos-duration="2000"
         >
           <h2 className="grid_text  lk">
             Technology.
-            <div className="tube"></div>
           </h2>
         </div>
       </div>
@@ -159,6 +162,8 @@ const Header = () => {
           <source src={vide} type="video/mp4" />
         </video>
       </div>
+
+      ssssssssssssss
     </motion.div>
   );
 };

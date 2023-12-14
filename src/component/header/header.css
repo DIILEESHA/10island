@@ -2,10 +2,15 @@
   padding: 0 50px;
   width: 100vw;
   height: auto;
+  position: relative;
+  background-color: #f2f2f2;
+
+  z-index: 1000;
 }
 
 .header_sub {
   display: flex;
+
   margin-top: 30px;
 }
 
@@ -14,6 +19,9 @@
 }
 .header_middle {
   flex: 3;
+  background-color: transparent;
+  z-index: 2;
+  position: relative;
 }
 
 .header_title {
@@ -54,15 +62,24 @@
 .header_grid {
   margin-top: 10px;
   display: grid;
+  position: relative;
+
+  z-index: 1000;
   grid-template-columns: 1fr 2fr;
   position: relative;
 }
 
 .sm {
   color: #a2a2a9 !important;
+  position: relative;
+
+  z-index: 1000;
 }
 
 .grid_text {
+  position: relative;
+
+  z-index: 1000;
   font-size: 150px;
   font-weight: 400;
   text-transform: capitalize;
@@ -73,36 +90,29 @@
   width: 100%;
   overflow: hidden;
   border-radius: 5px;
+  position: relative;
+
+  z-index: 1000;
   margin-top: 10px;
   padding: 10px;
   /* animation: float 6s ease-in-out infinite; */
- 
 }
 
 .header_sub_grid {
+  position: relative;
+
+  z-index: 1000;
 }
 .tube {
-  background-color: rgb(100, 99, 99);
-  border-bottom: 1px solid #333;
-  padding: 5px;
-  top: 0%;
-  bottom: 0px;
-  right: 0;
-  left: 0;
-  display: none;
-  border-radius: 50%;
-  transform: rotate(-1deg);
-  opacity: 0.1;
-  position: absolute;
-  /* font-family: "Body Text Fit Regular"; */
-  font-weight: normal;
-  font-style: normal;
 }
 
 .tube:nth-of-type(1) {
 }
 
 .lk {
+  position: relative;
+
+  z-index: 1000;
   display: flex;
   justify-content: flex-end;
 }
@@ -153,10 +163,11 @@ video {
 }
 
 .sentence-container {
+  z-index: 1000;
   height: 50vh;
   display: flex;
   overflow: hidden;
-  padding:80px 50px;
+  padding: 80px 50px;
   position: relative;
 }
 
@@ -181,7 +192,7 @@ video {
 
 .senta,
 .sentence {
-  padding:80px 50px;
+  padding: 80px 50px;
   position: absolute;
   top: 0;
   display: flex;
@@ -192,7 +203,7 @@ video {
   /* opacity: 0; */
   transform: scale(1);
   transition: transform 2s ease-in-out, opacity 2s ease-in-out;
-  width: 100%; 
+  width: 100%;
 }
 
 .dg,
@@ -212,8 +223,6 @@ video {
 .sentence.hide {
   opacity: 0;
 }
-
-
 
 .image-card {
   position: relative;
@@ -246,6 +255,9 @@ video {
 .main_card {
   display: grid;
   padding: 0 50px;
+  position: relative;
+
+  z-index: 1000;
   column-gap: 15px;
   row-gap: 50px;
   grid-template-columns: repeat(2, 1fr);

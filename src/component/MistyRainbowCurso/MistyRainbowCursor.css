@@ -18,4 +18,9 @@
   .custom-cursor:hover{
     /* display: none; */
   }
+
+  .gh{
+  position: relative;
+z-index: 10000;
+  }
   

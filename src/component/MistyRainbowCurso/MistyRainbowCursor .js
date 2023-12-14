@@ -21,7 +21,7 @@ const CustomCursor = () => {
 
   return (
     <motion.div
-      className="custom-cursor"
+      className="custom-cursor ghw"
       style={{ left: position.x, top: position.y }}
       initial={{ scale: 0.5, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
