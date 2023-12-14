@@ -1,18 +1,19 @@
+// ParticleComponent.js
 import React, { useEffect, useMemo } from "react";
-import Particles from "@tsparticles/react";
-import { loadSlim } from "@tsparticles/slim";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import  {loadSlim}  from "@tsparticles/slim";
 
 const ParticleComponent = () => {
   useEffect(() => {
-    // Initialize particles engine
-    loadSlim().then((particles) => {
-      particles("tsparticles", options); // Replace 'options' with your actual options
+    initParticlesEngine(async (engine) => {
+      await loadSlim(engine);
     });
   }, []);
 
   const particlesLoaded = (container) => {
     console.log(container);
   };
+
   const options = useMemo(
     () => ({
       background: {
