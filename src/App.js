@@ -4,6 +4,7 @@ import CursorLine from "./component/cursor/CursorLine";
 import Header from "./component/header/Header";
 import SentenceAnimation from "./component/header/sentences";
 import Navbar from "./component/navbar/Navbar";
+import ParticleComponent from "./component/particle/ParticleComponent";
 import ScrollAnimation from "./component/scroller/ScrollAnimation";
 import Mainserve from "./component/service/Mainserve";
 

@@ -1,7 +1,7 @@
 // ParticleComponent.js
 import React, { useEffect, useMemo } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { loadSlim } from "@tsparticles/slim";
+import  {loadSlim}  from "@tsparticles/slim";
 
 const ParticleComponent = () => {
   useEffect(() => {
@@ -68,7 +68,7 @@ const ParticleComponent = () => {
         number: {
           density: {
             enable: true,
-            area: 100,
+            area: 100000,
           },
           value: 80,
         },
@@ -79,7 +79,7 @@ const ParticleComponent = () => {
           type: "circle",
         },
         size: {
-          value: { min: 1, max: 2 },
+          value: { min: 1, max: 5 },
         },
       },
       detectRetina: true,
@@ -90,6 +90,7 @@ const ParticleComponent = () => {
   return (
     <Particles
       id="tsparticles"
+      style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: 1 }}
       particlesLoaded={particlesLoaded}
       options={options}
     />

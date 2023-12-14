@@ -1,5 +1,6 @@
 import React from "react";
 import "./nav.css";
+import ParticleComponent from "../particle/ParticleComponent";
 
 const Navbar = () => {
   return (
