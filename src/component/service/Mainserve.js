@@ -2,8 +2,14 @@ import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { IoArrowForwardSharp } from "react-icons/io5";
 import "../header/header.css";
+import "./service.css";
+
+import Serve from "./serve.json";
 
 const Mainserve = () => {
+  const menData = Serve.companies || [];
+
+  console.log(Serve);
   const [animationComplete, setAnimationComplete] = useState(false);
   const controls = useAnimation();
 
@@ -49,16 +55,14 @@ const Mainserve = () => {
         }`}
         animate={controls}
         initial={{ y: 50, opacity: -1, x: 0 }}
-        style={
-          {zIndex:1}
-        }
+        style={{ zIndex: 1 }}
       >
         <div className="header_sub">
           <div
             className={`header_left ${animationComplete ? "fade-in" : ""}`}
           ></div>
           <motion.div
-            className={`header_middle ${animationComplete ? "fade-in" : ""}`}
+            className={`header_middle hj ${animationComplete ? "fade-in" : ""}`}
             initial="hidden"
             animate="visible"
             whileHover="hover"
@@ -90,73 +94,84 @@ const Mainserve = () => {
       </motion.div>
 
       <div className="main_card">
+        {Serve.companies.map((serves, index) => (
+          <>
+            <div
+              className="sub_img_card"
+              data-aos="fade-up"
+              data-aos-anchor-placement={
+                index % 2 === 0 ? "top-bottom" : "top-center"
+              }
+              data-aos-duration="2000"
+            >
+              <img src={serves.img_link} alt="" />
+
+              <div
+                className="texter_align"
+                data-aos="fade-up-left"
+                data-aos-anchor-placement={
+                  index % 2 === 0 ? "top-bottom" : "top-center"
+                }
+                data-aos-duration="2000"
+              >
+                <div className="line">
+                  <h2 className="main_card_texter1">{serves.name}</h2>
+                  <div className="linerr">
+                    <div className="liner"></div>
+                    <h2 className="main_card_texter2">{serves.category}</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </>
+        ))}
+      </div>
+
+      <div
+        className="bottom_para_section"
+        data-aos="fade-up-right"
+        data-aos-duration="2000"
+      >
+        <p className="bottom_para">
+          10islands is a nimble team designing and building
+          <span className="cooler">
+            digital products, brands, and experiences
+          </span>
+          — with offices on the islands of Stockholm, Florianópolis & Reykjavík.
+        </p>
+      </div>
+      <div className="header_sub">
         <div
-          className="sub_img_card 
-        
-        "
-          data-aos="fade-up"
-          data-aos-anchor-placement="center-center "
-          data-aos-duration="2000"
+          className={`header_left ${animationComplete ? "fade-in" : ""}`}
+        ></div>
+        <motion.div
+          className={`header_middle hj ${animationComplete ? "fade-in" : ""}`}
+          initial="hidden"
+          animate="visible"
+          whileHover="hover"
+          variants={textVariants}
         >
-
-<img src="https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2Fe73b68935430755ad6430ac804d7a5bd31143186-1656x1106.jpg%3Frect%3D0%2C1%2C1656%2C1104%26w%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=16&q=75" alt="" />
-
-        </div>
+          <p
+            className="header_para"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
+            OUR TEAM FOSTERS AN INCLUSIVE CULTURE OF CRAFT, COLLABORATION, AND
+            CREATIVITY.
+          </p>
+          <h3
+            className="header_title two"
+            data-aos="fade-up-left"
+            data-aos-duration="2000"
+          >
+            CULTURE
+            <div className="arrow">
+              <IoArrowForwardSharp className="arrower" />
+            </div>
+          </h3>
+        </motion.div>
         <div
-          className="sub_img_card 
-        
-        "
-          data-aos="fade-up"
-          data-aos-anchor-placement="center-center "
-          data-aos-duration="2000"
-        ></div>
-        <div
-          className="sub_img_card 
-        
-        "
-          data-aos="fade-up"
-          data-aos-anchor-placement="center-center "
-          data-aos-duration="2000"
-        ></div>
-        <div
-          className="sub_img_card 
-        
-        "
-          data-aos="fade-up"
-          data-aos-anchor-placement="center-center "
-          data-aos-duration="2000"
-        ></div>
-        <div
-          className="sub_img_card 
-        
-        "
-          data-aos="fade-up"
-          data-aos-anchor-placement="center-center "
-          data-aos-duration="2000"
-        ></div>
-        <div
-          className="sub_img_card 
-        
-        "
-          data-aos="fade-up"
-          data-aos-anchor-placement="center-center "
-          data-aos-duration="2000"
-        ></div>
-        <div
-          className="sub_img_card 
-        
-        "
-          data-aos="fade-up"
-          data-aos-anchor-placement="center-center "
-          data-aos-duration="2000"
-        ></div>
-        <div
-          className="sub_img_card 
-        
-        "
-          data-aos="fade-up"
-          data-aos-anchor-placement="center-center "
-          data-aos-duration="2000"
+          className={`header_right ${animationComplete ? "fade-in" : ""}`}
         ></div>
       </div>
     </div>

@@ -1,59 +1,45 @@
-// CursorTrail.js
-import React, { useState, useEffect } from 'react';
+// CustomCursor.js
+import React, { useEffect, useState } from 'react';
 import './CursorLine.css';
 
-const CursorTrail = () => {
-  const [trail, setTrail] = useState([]);
-  const [isVisible, setIsVisible] = useState(false);
-
-  const handleMouseMove = (event) => {
-    const { clientX, clientY } = event;
-    const newTrailItem = {
-      x: clientX,
-      y: clientY,
-      color: getRandomColor(),
-      shape: getRandomShape(),
-    };
-
-    setTrail((prevTrail) => [...prevTrail, newTrailItem]);
-    setIsVisible(true);
-
-    // Reset trail and visibility after 4 seconds
-    setTimeout(() => {
-      setTrail([]);
-      setIsVisible(false);
-    }, 40);
-  };
-
-  const getRandomColor = () => {
-    const colors = ['#FF0000', '#00FF00', '#0000FF', '#FF00FF', '#FFFF00', '#00FFFF'];
-    return colors[Math.floor(Math.random() * colors.length)];
-  };
-
-  const getRandomShape = () => {
-    const shapes = ['circle', 'heart'];
-    return shapes[Math.floor(Math.random() * shapes.length)];
-  };
+const CustomCursor = () => {
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [rotation, setRotation] = useState(0);
 
   useEffect(() => {
-    document.addEventListener('mousemove', handleMouseMove);
+    const updateCursorPosition = (e) => {
+      setPosition({ x: e.clientX, y: e.clientY });
+    };
+
+    const rotateCursor = () => {
+      setRotation((prevRotation) => (prevRotation + 36) % 360);
+      requestAnimationFrame(rotateCursor);
+    };
+
+    document.addEventListener('mousemove', updateCursorPosition);
+    rotateCursor();
 
     return () => {
-      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mousemove', updateCursorPosition);
     };
   }, []);
 
+  const renderIslands = () => {
+    const islands = [];
+    for (let i = 0; i < 10; i++) {
+      islands.push(<div key={i} className="island" style={{ transform: `rotate(${i * 36}deg)` }} />);
+    }
+    return islands;
+  };
+
   return (
-    <div className={`cursor-trail ${isVisible ? 'visible' : ''}`}>
-      {trail.map((item, index) => (
-        <div
-          key={index}
-          className={`trail-item ${item.shape}`}
-          style={{ left: item.x, top: item.y, backgroundColor: item.color }}
-        ></div>
-      ))}
+    <div className="custom-cursor">
+      <div className="cursor-circle" style={{ transform: `rotate(${rotation}deg)` }}>
+        {renderIslands()}
+      </div>
+      <div className="cursor-dot" style={{ transform: `translate(-50%, -50%) rotate(${rotation}deg)` }} />
     </div>
   );
 };
 
-export default CursorTrail;
+export default CustomCursor;

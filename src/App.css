@@ -2,11 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
   
   width: 100%;
   color: #070707;
   height: auto;
   /* background-color: transparent; */
+}
+
+body{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  overscroll-behavior-y: none;
+  height: 100vh;
 }
 
 @font-face {
@@ -19,3 +27,9 @@
 body {
   font-family: "BentonSans", sans-serif;
 }
+
+
+
+
+
+

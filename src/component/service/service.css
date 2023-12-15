@@ -1,0 +1,100 @@
+.texter_align {
+  gap: 5px;
+  display: flex;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.main_card_texter1 {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "AftenScreen", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+
+  padding: 0;
+}
+.main_card_texter2 {
+  color: #a2a2a9 !important;
+  font-weight: 400;
+  font-family: "AftenScreen", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.main_card {
+  display: grid;
+  padding: 0 50px;
+  position: relative;
+
+  z-index: 1000;
+  column-gap: 15px;
+  /* row-gap: 50px; */
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sub_img_card {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.liner-container {
+  /* margin-right: 100px; */
+}
+.lineh2 {
+  font-size: 18px;
+  font-family: "AftenScreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+}
+
+.linerr {
+  display: flex;
+  align-items: center;
+  padding-right: auto;
+}
+
+.liner {
+  margin-right: 5px;
+  transition: width 0.9s;
+  width: 60px;
+  height: 1px;
+  background-color: #a2a2a9 !important;
+}
+
+.line:hover .liner {
+  width: 100px;
+}
+
+.bottom_para_section {
+  margin-top: 50px;
+  position: relative;
+  z-index: 1000;
+  padding: 50px;
+}
+
+.bottom_para {
+  font-weight: 400;
+  font-size: 55px;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+
+  font-family: "AftenScreen", sans-serif;
+  width: 70%;
+}
+.cooler {
+  margin: 0px 10px;
+  color: #a2a2a9 !important;
+}
