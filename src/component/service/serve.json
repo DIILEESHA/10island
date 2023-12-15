@@ -1,47 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "GOALS",
+    "category": "Gaming",
+    "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2Fe73b68935430755ad6430ac804d7a5bd31143186-1656x1106.jpg%3Frect%3D0%2C1%2C1656%2C1104%26w%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=3840&q=75"
+  },
+  {
+    "id": 2,
 
+    "name": "Pluto VR",
+    "category": "XR Technologies",
+    "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2F76a7cc3eafe45277c8f8f6230acc2a2c7a45a0aa-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=3840&q=75"
+  },
+  {
+    "id": 3,
 
-{
-    "companies": [
-      {
-        "name": "GOALS",
-        "category": "Gaming",
-        "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2Fe73b68935430755ad6430ac804d7a5bd31143186-1656x1106.jpg%3Frect%3D0%2C1%2C1656%2C1104%26w%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=3840&q=75"
-      },
-      {
-        "name": "Pluto VR",
-        "category": "XR Technologies",
-        "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2F76a7cc3eafe45277c8f8f6230acc2a2c7a45a0aa-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=3840&q=75"
-      },
-      {
-        "name": "Poly AI",
-        "category": "AI Technologies",
-        "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2Fc627e47758e770b3cb3351f30b18899101f98a2f-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=3840&q=75"
-      },
-      {
-        "name": "Neko",
-        "category": "Healthtech",
-        "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2Fca46ff0ea6dfc84f84b67df111512520827d5c64-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=3840&q=75"
-      },
-      {
-        "name": "United Nations",
-        "category": "Sustainability",
-        "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2F964dc60f9bcda34c246cabff7c5ad4d9e80168c7-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=1080&q=75"
-      },
-      {
-        "name": "Quantum Wallet",
-        "category": "Technologies",
-        "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2F64e6a941e96872c3eb90c0f1b7614dfcb4f8a64a-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=1080&q=75"
-      },
-      {
-        "name": "Proxy",
-        "category": "Technologies",
-        "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2F0a68d432912bca1f276ec5e21f644efd28c20345-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=1080&q=75"
-      },
-      {
-        "name": "GOALS Studio",
-        "category": "Gaming Company",
-        "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2Fcffddc8be9500d725475a3060589b00346068b16-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=1080&q=75"
-      }
-    ]
+    "name": "Poly AI",
+    "category": "AI Technologies",
+    "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2Fc627e47758e770b3cb3351f30b18899101f98a2f-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=3840&q=75"
+  },
+  {
+    "id": 4,
+
+    "name": "Neko",
+    "category": "Healthtech",
+    "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2Fca46ff0ea6dfc84f84b67df111512520827d5c64-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=3840&q=75"
+  },
+  {
+    "id": 5,
+
+    "name": "United Nations",
+    "category": "Sustainability",
+    "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2F964dc60f9bcda34c246cabff7c5ad4d9e80168c7-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=1080&q=75"
+  },
+  {
+    "id": 6,
+
+    "name": "Quantum Wallet",
+    "category": "Technologies",
+    "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2F64e6a941e96872c3eb90c0f1b7614dfcb4f8a64a-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=1080&q=75"
+  },
+  {
+    "id": 7,
+
+    "name": "Proxy",
+    "category": "Technologies",
+    "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2F0a68d432912bca1f276ec5e21f644efd28c20345-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=1080&q=75"
+  },
+  {
+    "id": 8,
+
+    "name": "GOALS Studio",
+    "category": "Gaming Company",
+    "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2Fcffddc8be9500d725475a3060589b00346068b16-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=1080&q=75"
   }
-  
+]

@@ -5,21 +5,21 @@ import "../header/header.css";
 import "./service.css";
 
 import Serve from "./serve.json";
+import { Link } from "react-router-dom";
 
 const Mainserve = () => {
-  const menData = Serve.companies || [];
 
   console.log(Serve);
   const [animationComplete, setAnimationComplete] = useState(false);
   const controls = useAnimation();
 
-  const scaleAnimation = {
-    scale: 1,
-    transition: {
-      duration: 1.2, // Adjust the duration of the animation
-      ease: [0.25, 0.46, 0.45, 0.94], // Custom cubic bezier easing
-    },
-  };
+  // const scaleAnimation = {
+  //   scale: 1,
+  //   transition: {
+  //     duration: 1.2, // Adjust the duration of the animation
+  //     ease: [0.25, 0.46, 0.45, 0.94], // Custom cubic bezier easing
+  //   },
+  // };
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
@@ -94,8 +94,9 @@ const Mainserve = () => {
       </motion.div>
 
       <div className="main_card">
-        {Serve.companies.map((serves, index) => (
-          <>
+        
+        {Serve.map((serves, index) => (
+           <Link to={`/single/${index}`} key={index}>
             <div
               className="sub_img_card"
               data-aos="fade-up"
@@ -123,7 +124,7 @@ const Mainserve = () => {
                 </div>
               </div>
             </div>
-          </>
+          </Link>
         ))}
       </div>
 

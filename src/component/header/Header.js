@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { motion, useAnimation, useCycle } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
 import { useDrag } from "react-use-gesture";
 import "./header.css";
 import vide from "../video/vide.mp4";
@@ -74,11 +74,8 @@ const Header = () => {
       {...bind()}
       style={{ zIndex: 1 }}
     >
-
-
-      <div >
-
-      <ParticleComponent />
+      <div>
+        <ParticleComponent />
       </div>
       <div className="header_sub">
         <div
@@ -91,7 +88,6 @@ const Header = () => {
           whileHover="hover"
           variants={textVariants}
           onClick={() => setShowImages(true)}
-        
         >
           <h3
             className="header_title"
@@ -113,16 +109,7 @@ const Header = () => {
           className={`header_right ${animationComplete ? "fade-in" : ""}`}
         ></div>
       </div>
-
-      {showImages && (
-        <div className="image-container">
-          {/* Add your images here */}
-          <img src="image1.jpg" alt="Image 1" />
-          <img src="image2.jpg" alt="Image 2" />
-          {/* ... add more images as needed ... */}
-        </div>
-      )}
-
+     
       <div className={`header_grid  ${animationComplete ? "fade-in" : ""}`}>
         <div
           className="header_sub_grid "
@@ -135,21 +122,16 @@ const Header = () => {
           <h2 className="grid_text"></h2>
         </div>
         <div className="header_sub_grid">
-          <h2 className="grid_text sm ">
-            &
-          </h2>
+          <h2 className="grid_text sm ">&</h2>
         </div>
         <div
           className="header_sub_grid"
           data-aos="fade-up-left"
           data-aos-duration="2000"
         >
-          <h2 className="grid_text  lk">
-            Technology.
-          </h2>
+          <h2 className="grid_text  lk">Technology.</h2>
         </div>
       </div>
-
       <div className={`video-container ${animationComplete ? "fade-in" : ""}`}>
         <video
           autoPlay
@@ -162,7 +144,6 @@ const Header = () => {
           <source src={vide} type="video/mp4" />
         </video>
       </div>
-
       ssssssssssssss
     </motion.div>
   );

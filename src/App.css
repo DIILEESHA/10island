@@ -3,14 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 
-  
   width: 100%;
   color: #070707;
   height: auto;
   /* background-color: transparent; */
 }
 
-body{
+body {
   overflow-y: scroll;
   overflow-x: hidden;
   overscroll-behavior-y: none;
@@ -28,8 +27,7 @@ body {
   font-family: "BentonSans", sans-serif;
 }
 
-
-
-
-
-
+.linka {
+  color: inherit;
+  text-decoration: none;
+}
