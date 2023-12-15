@@ -8,7 +8,7 @@ const CustomCursor = () => {
 
   const scrollToTop = () => {
     scroll.scrollToTop({
-      duration: 500,
+      duration: 2500,
       smooth: "easeInOutQuad",
     });
   };

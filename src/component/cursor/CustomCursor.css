@@ -2,15 +2,15 @@
   position: fixed;
   width: 180px;
   height: 180px;
-  bottom: 0px; /* Adjusted to 100px from the bottom */
+  bottom: 0px;
   right: 0;
   z-index: 1000;
-  opacity: 0; /* Start with opacity 0 */
+  opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
 
 .cursor.show {
-  opacity: 1; /* Show the button when it has the "show" class */
+  opacity: 1;
   cursor: pointer;
   transform: rotate(0);
 }
@@ -29,7 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff!important;
+  color: #fff !important;
 }
 
 .ily {
@@ -39,7 +39,7 @@
 
 .ily:hover {
   transform: rotate(90deg);
-  background-color: teal;
+  /* background-color: teal; */
   border-radius: 50%;
 }
 
