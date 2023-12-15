@@ -1,7 +1,7 @@
 // ParticleComponent.js
 import React, { useEffect, useMemo } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import  {loadSlim}  from "@tsparticles/slim";
+import { loadSlim } from "@tsparticles/slim";
 
 const ParticleComponent = () => {
   useEffect(() => {
@@ -18,7 +18,7 @@ const ParticleComponent = () => {
     () => ({
       background: {
         color: {
-          value: "#f2f2f2",
+          value: " #f2f2f2",
         },
       },
       fpsLimit: 120,
@@ -52,7 +52,7 @@ const ParticleComponent = () => {
           color: "#333",
           distance: 150,
           enable: true,
-          opacity: 0.5,
+          opacity: 0.3,
           width: 1,
         },
         move: {
@@ -62,7 +62,7 @@ const ParticleComponent = () => {
             default: "bounce",
           },
           random: false,
-          speed: 6,
+          speed: 7,
           straight: false,
         },
         number: {
@@ -90,7 +90,14 @@ const ParticleComponent = () => {
   return (
     <Particles
       id="tsparticles"
-      style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: 1 }}
+      style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        zIndex: 1,
+      }}
       particlesLoaded={particlesLoaded}
       options={options}
     />

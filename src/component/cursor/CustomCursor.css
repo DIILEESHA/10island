@@ -1,0 +1,70 @@
+.cursor {
+  position: fixed;
+  width: 180px;
+  height: 180px;
+  bottom: 0px; /* Adjusted to 100px from the bottom */
+  right: 0;
+  z-index: 1000;
+  opacity: 0; /* Start with opacity 0 */
+  transition: opacity 0.5s ease-in-out;
+}
+
+.cursor.show {
+  opacity: 1; /* Show the button when it has the "show" class */
+  cursor: pointer;
+  transform: rotate(0);
+}
+
+.imger {
+  position: relative;
+  opacity: 90%;
+}
+.cursor_imgset {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff!important;
+}
+
+.ily {
+  width: 40px;
+  transform: rotate(100deg);
+}
+
+.ily:hover {
+  transform: rotate(90deg);
+  background-color: teal;
+  border-radius: 50%;
+}
+
+.rotate {
+  animation: rotate 6s infinite linear;
+}
+
+.rotate:hover {
+  display: none;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

@@ -6,6 +6,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./component/home/Home";
 import Singlepost from "./component/single/Singlepost";
 import Journal from "./component/Journalist/Journal";
+import CustomCursor from "./component/cursor/CustomCursor";
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/single/:id" element={<Singlepost />} />
           <Route path="/journal" element={<Journal />} />
         </Routes>
+        <CustomCursor />
       </BrowserRouter>
     </div>
   );
