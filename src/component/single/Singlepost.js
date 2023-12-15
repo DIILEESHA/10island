@@ -25,7 +25,7 @@ const SingleComponent = () => {
         muted
         loop
         crossOrigin="anonymous"
-        src="https://cdn.sanity.io/files/f3tpxs09/production/175db19941eb7af438220a6364cd1c04d9e08490.mp4"
+        src="https://res.cloudinary.com/dwui0vhvc/video/upload/v1702635818/175db19941eb7af438220a6364cd1c04d9e08490_dbbnot.mp4"
         type="video/mp4" ></video>
     </div>
   );
