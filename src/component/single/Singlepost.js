@@ -26,7 +26,7 @@ const SingleComponent = () => {
         loop
         crossOrigin="anonymous"
         src="https://cdn.sanity.io/files/f3tpxs09/production/175db19941eb7af438220a6364cd1c04d9e08490.mp4"
-      ></video>
+        type="video/mp4" ></video>
     </div>
   );
 };
