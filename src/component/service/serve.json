@@ -1,5 +1,8 @@
 [
   {
+    "video": "https://stream.mux.com/Rsz6yVI00OKJLxYqPAxIHHNjArGoke7sZkvpEbMCHk8c/high.mp4",
+    "para": "GOALS is a fast-paced, competitive, and cooperative football game for players of all abilities and backgrounds. 14islands teamed up with GOALS to showcase a new era of football games, and the people behind it.We designed and built a brand experience that challenges traditional gaming sites. Focusing on diversity-based players and assets that shape football culture around the world. Making motion a core of the experience, because motion brings multi-player games to life. And creating a flexible CMS-based site that grows with the game as it enters new chapters - essentially giving football the game it deserves.",
+    "img": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2Ff7cd02b9124fb2a20a3fc3533aecfec5cdf57208-3200x1800.jpg%3Fw%3D3200%26h%3D1800%26fit%3Dmax%26auto%3Dformat&w=1920&q=75",
     "id": 1,
     "name": "GOALS",
     "category": "Gaming",
@@ -14,7 +17,9 @@
   },
   {
     "id": 3,
-
+    "video": "https://stream.mux.com/A500bMsrYbpBqsr69Q7kHlYzhXBoD1RjJsw8sutKyZxY/high.mp4",
+    "para": "Founded by Cambridge scientists, PolyAI transforms customer service with AI-powered natural language conversation. We collaborated to design PolyAI Studio, a web app enabling customers to design conversations and manage powerful dialogue flows in the most simple way.Human conversations are complex in nature and can take a multitude of different turns. Based on insights from user interviews and workshops, 14islands designed and built an intuitive drag-and-drop canvas to allow smooth construction of AI conversations.Since its launch, the product has scaled worldwide and PolyAI was listed as one of Forbes most promising AI companies in the world.",
+    "img": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2Fde5fa1fa95372dbe2b029098804465b4a7af2f9c-3200x1800.jpg%3Fw%3D3200%26h%3D1800%26fit%3Dmax%26auto%3Dformat&w=1920&q=75",
     "name": "Poly AI",
     "category": "AI Technologies",
     "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2Fc627e47758e770b3cb3351f30b18899101f98a2f-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=3840&q=75"
@@ -22,34 +27,45 @@
   {
     "id": 4,
 
+    "video": "https://stream.mux.com/LeJX4tss2ZQLkDX8mUWjnW93Q02WHLrSJn5wVqo01cdz8/high.mp4",
+    "para": "Neko is a health tech startup on a mission to make proactive healthcare available for all. They offer full-body scans and human-friendly diagnoses at their health clinics. 14islands was brought on board to design and develop a unique experience to introduce Neko's services to the market, enticing people to visit the clinics.We created an emotional connection with users by focusing on health issues, highlighting the purpose and benefits of scans for the skin, heart, and body. We crafted moving point clouds on top of people to humanize Neko's pioneering technologies. Additionally, 14islands art-directed photoshoots to bring this original concept to life.On launch day, the website filled all available spots at Neko's clinics within hours, the outcome we all wanted to achieve.",
+    "img": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2Fca46ff0ea6dfc84f84b67df111512520827d5c64-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=1080&q=75",
     "name": "Neko",
     "category": "Healthtech",
     "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2Fca46ff0ea6dfc84f84b67df111512520827d5c64-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=3840&q=75"
   },
   {
+    "video": "https://stream.mux.com/AzYf9W01N6wuNzQTXinj3rmDaLfEiGgh7S8qAVPkOeOc/high.mp4",
+    "para": "Is the world getting better? That’s a question many young people are trying to grasp. Together with UNDP Sweden, we created an engaging learning tool about world development that students want to use even after school.We interviewed Swedish youth to understand their context and learning behaviors. The content structure, storytelling, illustrations, and motion help our users remember and focus on important info. Hashtag navigation, immersive facts, and video series let people dive into topics that spark their interest.Tens of thousands of people and school classes all over Sweden have used the tool since launch.",
+    "img": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2Fc1dcd2a800f9da80d03f4475806ad44c5ce83b53-1600x900.jpg%3Fw%3D1600%26h%3D900%26fit%3Dmax%26auto%3Dformat&w=1920&q=75",
     "id": 5,
-
     "name": "United Nations",
     "category": "Sustainability",
     "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2F964dc60f9bcda34c246cabff7c5ad4d9e80168c7-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=1080&q=75"
   },
   {
+    "img": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2F64e6a941e96872c3eb90c0f1b7614dfcb4f8a64a-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=1080&q=75",
     "id": 6,
-
+    "para": "Quantum Wallet is the first-ever hardware wallet powered by quantum computing. It allows people to stay in control of their digital assets and feel safer with the most secure encryption by a quantum leap.The product doesn't exist in real life yet. 14islands developed Quantum Wallet to showcase conception, product design, and storytelling skills. The project has been met with overwhelmingly positive responses since its launch, sparking online discussion and earning numerous awards.",
+    "video": "https://stream.mux.com/qp29cqyp4co1h53JyFOCo8ow78raZuUH5hJW5OYT4sw/high.mp4",
     "name": "Quantum Wallet",
     "category": "Technologies",
     "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2F64e6a941e96872c3eb90c0f1b7614dfcb4f8a64a-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=1080&q=75"
   },
   {
     "id": 7,
-
+    "img": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2F5b82bae0cf9d2f892e6950f7bab4f2c90cbfb1a6-3585x2107.jpg%3Frect%3D0%2C46%2C3585%2C2017%26w%3D3585%26h%3D2017%26fit%3Dmax%26auto%3Dformat&w=1920&q=75",
+    "para": "Cards and keys are old school. Proxy provides touch-free app access to buildings. We partnered with their team to design and build a scalable platform for Proxy's services, ensuring the best modern user experience on the market.We collaborated over several years, rethinking, scaling, testing, and launching new products with their San Francisco-based team. We successfully launched multiple products, including a dashboard for visitor management and controlling pandemic outbreaks and a developer portal. We also helped Proxy take the next step, designing and building a brand new marketing website to communicate its latest digital identity offering, Proxy ID. We take pride in the long-lasting collaboration and journey we've gone on together. Their product received positive customer feedback and played a pivotal role in setting Proxy apart in the access management space.",
+    "video": "https://stream.mux.com/iY8yxSlgfsfCZWV9geyZicNheQSk02SrfFRx01NrYHbEA/high.mp4",
     "name": "Proxy",
     "category": "Technologies",
     "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2F0a68d432912bca1f276ec5e21f644efd28c20345-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=1080&q=75"
   },
   {
     "id": 8,
-
+    "video": "https://stream.mux.com/2hUALpDcuTvhwqJxnlTlHeHs00QYNvd6i9plREZemdMw/high.mp4",
+    "para": "GOALS is a Stockholm-based AAA studio making the football game for the next generation. By fully embracing inclusivity, GOALS reshapes the game development landscape and puts power into the hands of players.We teamed up to design and develop an experience for their gaming studio. We created a brand consistent with GOALS game spirit, while being true to the company’s identity. We highlighted people and processes behind the scenes, to attract talent and boost recruitment efforts.The site won multiple awards and brought amazing people to the company.",
+    "img": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2F75b7521444b0eeead80524a66929c207beecc683-3200x1800.jpg%3Fw%3D3200%26h%3D1800%26fit%3Dmax%26auto%3Dformat&w=1920&q=75",
     "name": "GOALS Studio",
     "category": "Gaming Company",
     "img_link": "https://www.14islands.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3tpxs09%2Fproduction%2Fcffddc8be9500d725475a3060589b00346068b16-1656x1104.jpg%3Fw%3D1656%26h%3D1104%26fit%3Dmax%26auto%3Dformat&w=1080&q=75"

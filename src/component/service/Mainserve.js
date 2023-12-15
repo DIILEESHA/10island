@@ -8,7 +8,6 @@ import Serve from "./serve.json";
 import { Link } from "react-router-dom";
 
 const Mainserve = () => {
-
   console.log(Serve);
   const [animationComplete, setAnimationComplete] = useState(false);
   const controls = useAnimation();
@@ -20,6 +19,14 @@ const Mainserve = () => {
   //     ease: [0.25, 0.46, 0.45, 0.94], // Custom cubic bezier easing
   //   },
   // };
+
+
+
+  
+  const handleClicks = () => {
+    // Scroll to the top of the SingleItemDetail component
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
@@ -94,9 +101,13 @@ const Mainserve = () => {
       </motion.div>
 
       <div className="main_card">
-        
         {Serve.map((serves, index) => (
-           <Link to={`/single/${index}`} key={index}>
+          <Link
+            className="linka"
+            to={`/single/${index}`}
+            key={index}
+            onClick={handleClicks}
+          >
             <div
               className="sub_img_card"
               data-aos="fade-up"

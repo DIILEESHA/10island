@@ -18,7 +18,7 @@ const Header = () => {
         y: 0,
         transition: { duration: 3 },
       });
-    }, 1100);
+    }, 1600);
 
     return () => clearTimeout(timeoutId);
   }, [controls]);
@@ -144,7 +144,7 @@ const Header = () => {
           <source src={vide} type="video/mp4" />
         </video>
       </div>
-      ssssssssssssss
+      
     </motion.div>
   );
 };

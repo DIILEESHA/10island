@@ -5,6 +5,7 @@ import Navbar from "./component/navbar/Navbar";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./component/home/Home";
 import Singlepost from "./component/single/Singlepost";
+import Journal from "./component/Journalist/Journal";
 
 function App() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/single/:id" element={<Singlepost />} />
+          <Route path="/journal" element={<Journal />} />
         </Routes>
       </BrowserRouter>
     </div>

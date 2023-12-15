@@ -13,7 +13,9 @@
   flex: 5;
 }
 .nav_middle {
-  flex: 3;
+  flex: 2.9;
+  display: flex;
+  gap: 0px;
 }
 .nav_right {
   position: relative;
@@ -34,14 +36,15 @@
   gap: 10px;
 }
 
-.nav_ul > li {
+.nav_ul li {
   list-style-type: none;
   font-weight: 300;
   text-transform: uppercase;
+  margin: 0;
   cursor: pointer;
   font-size: 12px;
   /* justify-content: flex-end; */
   display: flex;
-  transform: translateY(0%) translateZ(0px);
+  /* transform: translateY(0%) translateZ(0px); */
 opacity: 1;
 }
