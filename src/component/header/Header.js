@@ -109,7 +109,7 @@ const Header = () => {
           className={`header_right ${animationComplete ? "fade-in" : ""}`}
         ></div>
       </div>
-     
+
       <div className={`header_grid  ${animationComplete ? "fade-in" : ""}`}>
         <div
           className="header_sub_grid "
@@ -118,18 +118,27 @@ const Header = () => {
         >
           <h2 className="grid_text ">design</h2>
         </div>
-        <div className="header_sub_grid">
+        <div className="header_sub_grid buha">
           <h2 className="grid_text"></h2>
         </div>
         <div className="header_sub_grid">
-          <h2 className="grid_text sm ">&</h2>
+          <h2 className="grid_text sm  sm2">&</h2>
         </div>
+
         <div
           className="header_sub_grid"
           data-aos="fade-up-left"
           data-aos-duration="2000"
         >
-          <h2 className="grid_text  lk">Technology.</h2>
+          <h2 className="grid_text  lk sm2">Technology.</h2>
+        </div>
+
+        <div className="header_sub_grider">
+        <div className="header_sub_grid lgr">
+          <h2 className="grid_text sm  lg">
+            & <span>technology</span>
+          </h2>
+        </div>
         </div>
       </div>
       <div className={`video-container ${animationComplete ? "fade-in" : ""}`}>
@@ -144,7 +153,6 @@ const Header = () => {
           <source src={vide} type="video/mp4" />
         </video>
       </div>
-      
     </motion.div>
   );
 };

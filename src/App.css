@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-position: relative;
+  position: relative;
   width: 100%;
   color: #070707;
   height: auto;
@@ -30,4 +30,10 @@ body {
 .linka {
   color: inherit;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .linka {
+    cursor: none;
+  }
 }

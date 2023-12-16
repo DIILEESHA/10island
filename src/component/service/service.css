@@ -27,7 +27,7 @@
   display: grid;
   padding: 0 50px;
   position: relative;
-
+  overflow: hidden;
   z-index: 1000;
   column-gap: 15px;
   /* row-gap: 50px; */
@@ -82,8 +82,9 @@
   margin-top: 50px;
   position: relative;
   z-index: 1000;
+  overflow: hidden;
+
   padding: 50px;
-  
 }
 
 .bottom_para {
@@ -99,7 +100,6 @@
   margin: 0px 10px;
   color: #a2a2a9 !important;
 }
-
 
 /* Spinner.css */
 
@@ -123,3 +123,23 @@
   }
 }
 
+@media screen and (max-width: 1105px) {
+  .main_card {
+    padding: 0px 20px;
+  }
+
+  .bottom_para {
+    width: 100%;
+    font-size: 40px;
+  }
+  .bottom_para_section {
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 909px) {
+  .main_card {
+    grid-template-columns: 1fr;
+  }
+}
