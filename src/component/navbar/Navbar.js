@@ -4,9 +4,8 @@ import "./nav.css";
 const Navbar = () => {
   return (
     <div
-      className="nav_container "
-      data-aos="fade-down"
-      data-aos-duration="2000"
+      className="nav_container gty"
+    
     >
       <div className="nav_left">
         <div data-aos="fade-up" data-aos-anchor-placement="center-bottom"></div>

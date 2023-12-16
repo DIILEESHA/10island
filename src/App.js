@@ -7,6 +7,7 @@ import Home from "./component/home/Home";
 import Singlepost from "./component/single/Singlepost";
 import Journal from "./component/Journalist/Journal";
 import CustomCursor from "./component/cursor/CustomCursor";
+import Footer from "./component/footer/Footer";
 
 function App() {
   useEffect(() => {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/journal" element={<Journal />} />
         </Routes>
         <CustomCursor />
+        <Footer />
       </BrowserRouter>
     </div>
   );

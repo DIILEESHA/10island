@@ -4,10 +4,17 @@
   align-items: center;
   justify-content: flex-end;
   padding: 0 50px;
-  /* background-color: #f2f2f2; */
+  background-color: #f2f2f2;
   color: #333;
   position: relative;
   z-index: 1000;
+}
+
+.gty {
+  /* position: sticky; */
+  /* border-bottom: 1px solid #adabab33; */
+  z-index: 999999;
+  top: 0;
 }
 .nav_left {
   flex: 5;
@@ -46,5 +53,5 @@
   /* justify-content: flex-end; */
   display: flex;
   /* transform: translateY(0%) translateZ(0px); */
-opacity: 1;
+  opacity: 1;
 }

@@ -5,7 +5,7 @@ import Mainserve from "../service/Mainserve";
 
 const Home = () => {
   return (
-    <div>
+    <div style={{background:"#f2f2f2"}}>
       <Header />
       <SentenceAnimation />
       <Mainserve />
