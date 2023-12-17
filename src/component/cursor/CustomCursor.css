@@ -68,3 +68,16 @@
     transform: rotate(0deg);
   }
 }
+@media screen and (max-width: 692px) {
+  .cursor {
+    width: 120px;
+    height: 120px;
+  }
+
+  .cursor.show {
+    cursor: none;
+  }
+  .ily{
+    width: 30px;
+  }
+}

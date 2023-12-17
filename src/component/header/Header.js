@@ -77,13 +77,15 @@ const Header = () => {
       <div>
         <ParticleComponent />
       </div>
-      <div className="header_sub">
+      <div className="header_sub  duke">
         <div
           className={`header_left ${animationComplete ? "fade-in" : ""}`}
         ></div>
         <motion.div
-          className={`header_middle ${animationComplete ? "fade-in" : ""}`}
+          className={`header_middle  ${animationComplete ? "fade-in" : ""}`}
           initial="hidden"
+
+        
           animate="visible"
           whileHover="hover"
           variants={textVariants}
@@ -110,7 +112,7 @@ const Header = () => {
         ></div>
       </div>
 
-      <div className={`header_grid  ${animationComplete ? "fade-in" : ""}`}>
+      <div className={`header_grid no ${animationComplete ? "fade-in" : ""}`}>
         <div
           className="header_sub_grid "
           data-aos="fade-up-right"
@@ -144,11 +146,11 @@ const Header = () => {
       <div className={`video-container ${animationComplete ? "fade-in" : ""}`}>
         <video
           autoPlay
+          className="video"
           playsInline
           muted
           loop
           crossOrigin="anonymous"
-          style={{ width: "100%", height: "auto" }}
         >
           <source src={vide} type="video/mp4" />
         </video>

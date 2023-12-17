@@ -64,7 +64,7 @@ const Mainserve = () => {
         initial={{ y: 50, opacity: -1, x: 0 }}
         style={{ zIndex: 1 }}
       >
-        <div className="header_sub">
+        <div className="header_sub ym">
           <div
             className={`header_left ${animationComplete ? "fade-in" : ""}`}
           ></div>
