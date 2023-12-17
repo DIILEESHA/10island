@@ -156,6 +156,71 @@ const Culture = () => {
           </div>
         ))}
       </div>
+
+      <div className="culture_values">
+        <div className="cultrue_sub_values">
+          <h2
+            className="values_title"
+            data-aos="fade-up-left"
+            data-aos-duration="2000"
+          >
+            OUR VALUES
+          </h2>
+        </div>
+        <div className="cultrue_sub_values">
+          <div className="demo" data-aos="fade-up" data-aos-duration="2000">
+            <h2 className="sub_culture_topic">Be inclusive</h2>
+            <p className="sub_culture_para">
+              Foster an open environment built on trust, where everyone feels
+              empowered to be themselves and make contributions.
+            </p>
+          </div>
+          <div
+            className="demo"
+            data-aos="fade-up-left"
+            data-aos-duration="3000"
+          >
+            <h2 className="sub_culture_topic">Make waves</h2>
+            <p className="sub_culture_para">
+              Take pride in your craft. Nurture, stimulate and hone it. People
+              always recognize when something is made with passion.
+            </p>
+          </div>
+          <div
+            className="demo"
+            data-aos="fade-up-left"
+            data-aos-duration="3000"
+          >
+            <h2 className="sub_culture_topic">Care to share</h2>
+            <p className="sub_culture_para">
+              Communication is the key to successful collaboration. Keep people
+              informed, and share your feedback, learnings and wins.
+            </p>
+          </div>
+          <div
+            className="demo"
+            data-aos="fade-up-left"
+            data-aos-duration="3000"
+          >
+            <h2 className="sub_culture_topic">Enjoy the ride</h2>
+            <p className="sub_culture_para">
+              Embrace every challenge as a creative opportunity. Be brave, take
+              risks and explore ideas. But most of all, have fun!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="bottom_culture_section"
+        data-aos="fade-up-right"
+        data-aos-duration="2000"
+      >
+        <p className="bottom_culture">
+          <span className="cooler">Out of the box —</span>
+          Our international team represents a mix of experiences, talents, and
+          skills that enrich our collective creativity.
+        </p>
+      </div>
     </motion.div>
   );
 };

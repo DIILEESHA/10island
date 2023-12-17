@@ -4,14 +4,13 @@
   gap: 10px;
   margin-bottom: 30px;
   position: relative;
-  background-color: #f2f2f2;
-  overflow: hidden;
   z-index: 1000;
 }
 
 .sub_cultural {
   height: 70vh;
   border-radius: 5px;
+  background-color: transparent;
 }
 
 .parallax-img {
@@ -51,4 +50,54 @@
 .sub_cultural:hover .parallax-img {
   transform: scale(1.2); /* Adjust the scale factor for the parallax effect */
   border-radius: 5px;
+}
+
+.culture_values {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.values_title {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+.demo {
+  margin-bottom: 50px;
+}
+.sub_culture_topic {
+  color: #a2a2a9;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+  margin-bottom: 5px;
+  font-family: AftenScreen, sans-serif;
+}
+
+.sub_culture_para {
+  font-family: AftenScreen, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -0.04em;
+  line-height: 1.3;
+
+  font-size: 24px;
+}
+.bottom_culture_section {
+  margin-top: 100px;
+  position: relative;
+  z-index: 1000;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+
+.bottom_culture {
+  font-weight: 400;
+  font-size: 45px;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+
+  font-family: "AftenScreen", sans-serif;
+  width: 86%;
 }
