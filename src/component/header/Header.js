@@ -84,8 +84,6 @@ const Header = () => {
         <motion.div
           className={`header_middle  ${animationComplete ? "fade-in" : ""}`}
           initial="hidden"
-
-        
           animate="visible"
           whileHover="hover"
           variants={textVariants}
@@ -136,14 +134,14 @@ const Header = () => {
         </div>
 
         <div className="header_sub_grider">
-        <div className="header_sub_grid lgr">
-          <h2 className="grid_text sm  lg">
-            & <span>technology</span>
-          </h2>
-        </div>
+          <div className="header_sub_grid lgr">
+            <h2 className="grid_text sm  lg">
+              & <span>technology</span>
+            </h2>
+          </div>
         </div>
       </div>
-      <div className={`video-container ${animationComplete ? "fade-in" : ""}`}>
+      <div className="video_container" >
         <video
           autoPlay
           className="video"
@@ -151,6 +149,7 @@ const Header = () => {
           muted
           loop
           crossOrigin="anonymous"
+          // style={{ height: "50vh", objectFit: "cover" }}
         >
           <source src={vide} type="video/mp4" />
         </video>
