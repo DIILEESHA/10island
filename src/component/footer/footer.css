@@ -15,7 +15,7 @@
   line-height: 1.1;
   margin-bottom: 40px;
   font-family: "AftenScreen", sans-serif;
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: flex-start;
 }
@@ -77,4 +77,60 @@
 .copyright {
   font-size: 16px;
   color: #a2a2a9;
+}
+@media screen and (max-width: 1105px) {
+  .footer_main {
+    padding: 20px;
+  }
+
+  .bottom_para_section_footer {
+    font-size: 40px;
+  }
+
+  .bottom_para_section_footer2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1105px) {
+  .footer_main {
+    padding: 20px;
+  }
+
+  .bottom_para_section_footer {
+    font-size: 40px;
+  }
+
+  .bottom_para_section_footer2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .footer_main {
+    padding: 20px;
+  }
+
+  .bottom_para_section_footer {
+    font-size: 30px;
+    width: 90%;
+  }
+
+  .bottom_para_section_footer2 {
+    font-size: 30px;
+  }
+  .bottom_footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .copyright {
+    margin-bottom: 20px;
+  }
+
+  .footer_ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
 }

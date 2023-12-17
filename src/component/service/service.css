@@ -143,3 +143,32 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media screen and (max-width: 650px) {
+  .bottom_para {
+    width: 100%;
+    font-size: 30px;
+  }
+  .bottom_para_section {
+    padding: 0 20px;
+  }
+
+  .main_card_texter1, .main_card_texter2{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .bottom_para {
+    width: 100%;
+    font-size: 27px;
+  }
+  .bottom_para_section {
+    padding: 0 20px;
+  }
+
+  .main_card_texter1, .main_card_texter2{
+    font-size: 14px;
+  }
+}
+
