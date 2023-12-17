@@ -8,6 +8,7 @@ import Singlepost from "./component/single/Singlepost";
 import Journal from "./component/Journalist/Journal";
 import CustomCursor from "./component/cursor/CustomCursor";
 import Footer from "./component/footer/Footer";
+import Culture from "./component/culture/Culture";
 
 function App() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/single/:id" element={<Singlepost />} />
           <Route path="/journal" element={<Journal />} />
+          <Route path="/culture" element={<Culture />} />
         </Routes>
         <CustomCursor />
         <Footer />

@@ -116,7 +116,7 @@ const Mainserve = () => {
               }
               data-aos-duration="2000"
             >
-              <img src={serves.img_link} alt="" />
+              <img className="gusa" src={serves.img_link} alt="" />
 
               <div
                 className="texter_align"

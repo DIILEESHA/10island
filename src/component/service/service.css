@@ -153,7 +153,8 @@
     padding: 0 20px;
   }
 
-  .main_card_texter1, .main_card_texter2{
+  .main_card_texter1,
+  .main_card_texter2 {
     font-size: 15px;
   }
 }
@@ -167,8 +168,8 @@
     padding: 0 20px;
   }
 
-  .main_card_texter1, .main_card_texter2{
+  .main_card_texter1,
+  .main_card_texter2 {
     font-size: 14px;
   }
 }
-
