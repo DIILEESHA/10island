@@ -414,11 +414,11 @@ video {
   .video_container {
     margin-top: 20px;
     margin-bottom: 0px;
-    height: 60vh;
+    height: 55vh;
   }
 
   .video {
-    height: 60vh;
+    height: 55vh;
     object-fit: cover;
   }
   .header_left {
