@@ -65,17 +65,33 @@ const Navbar = () => {
 
       <div
         className="mobile_ul_section"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom "
+        data-aos-duration="2000"
         style={{ right: open ? "0px" : "-50000vw" }}
       >
         <ul className="mobile_ul">
           <div className="mobala">
-            <li className="mobile_li" onClick={() => isOpen(!open)}>
-              work
+            <li
+              className="mobile_li"
+              onClick={() => handleClicks && isOpen(!open)}
+            >
+              <Link className="linka" to="/">
+                work
+              </Link>
             </li>
-            <li className="mobile_li" onClick={() => isOpen(!open)}>
-              service
+            <li
+              className="mobile_li"
+              onClick={() => handleClicks && isOpen(!open)}
+            >
+              <Link className="linka" to="/">
+                service
+              </Link>
             </li>
-            <li className="mobile_li" onClick={() => isOpen(!open)}>
+            <li
+              className="mobile_li"
+              onClick={() => handleClicks && isOpen(!open)}
+            >
               <Link className="linka" to="/culture">
                 culture
               </Link>

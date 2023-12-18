@@ -125,9 +125,9 @@
     display: flex;
     /* padding: 0 20px; */
     visibility: visible;
+    transition: 1s all ease;
     z-index: 1;
     opacity: 1; /* Fully opaque */
-    transition: 0.5s all ease-in-out;
   }
   
   .mobile_ul {
