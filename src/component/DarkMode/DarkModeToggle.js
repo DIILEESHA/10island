@@ -30,13 +30,21 @@ const DarkModeToggle = () => {
           className="mko"
           icon={faSun}
           title="Switch to Light Mode"
-          style={{ fontSize: "20px", cursor: "pointer" }}
+          style={{
+            width: "20px",
+            height: "20px",
+            cursor: "pointer",
+          }}
         /> // Use the sun icon for light mode
       ) : (
         <FontAwesomeIcon
           title="Switch to Dark Mode"
           icon={faMoon}
-          style={{ fontSize: "20px", cursor: "pointer" }}
+          style={{
+            width: "20px",
+            height: "20px",
+            cursor: "pointer",
+          }}
         /> // Use the moon icon for dark mode
       )}
     </div>

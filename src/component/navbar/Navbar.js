@@ -41,7 +41,7 @@ const Navbar = () => {
               display: "flex",
               alignItems: "center",
               justifyContent: "flex-end",
-              gap: "30px",
+              gap: "20px",
             }}
           >
             <li className="right_li">contact</li>
@@ -76,7 +76,7 @@ const Navbar = () => {
               className="mobile_li"
               onClick={() => handleClicks && isOpen(!open)}
             >
-              <Link className="linka" to="/">
+              <Link className="linka" to="/culture">
                 work
               </Link>
             </li>

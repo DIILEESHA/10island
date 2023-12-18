@@ -98,6 +98,11 @@
     justify-content: space-between;
   }
 
+  .right_ul {
+    align-items: center;
+    display: flex;
+  }
+
   .ela {
     display: flex;
     align-items: center;
@@ -125,11 +130,11 @@
     display: flex;
     /* padding: 0 20px; */
     visibility: visible;
-    transition: 1s all ease;
+    transition: 10s all ease;
     z-index: 1;
     opacity: 1; /* Fully opaque */
   }
-  
+
   .mobile_ul {
     display: flex;
     flex-direction: column;
