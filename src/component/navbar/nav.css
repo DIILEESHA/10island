@@ -129,7 +129,7 @@
     opacity: 1; /* Fully opaque */
     transition: 0.5s all ease-in-out;
   }
-
+  
   .mobile_ul {
     display: flex;
     flex-direction: column;
@@ -147,7 +147,8 @@
   .mobala {
     display: flex;
     gap: 20px;
-    flex-direction: col  }
+    flex-direction: column;
+  }
 
   .mobile_li {
     font-size: 20px;
