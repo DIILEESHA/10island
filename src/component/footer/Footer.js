@@ -30,7 +30,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="bottom_footer">
-        <h2 className="copyright">© 2023 14ISLANDS</h2>
+        <h2 className="copyright">
+          © 2023 14ISLANDS © 2021. Made with passion by DILLEESHA
+        </h2>
 
         <ul className="footer_ul">
           <li className="footer_li">INSTAGRAM</li>
