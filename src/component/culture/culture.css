@@ -4,6 +4,7 @@
   gap: 10px;
   margin-bottom: 30px;
   position: relative;
+  overflow: hidden;
   z-index: 1000;
 }
 
@@ -13,14 +14,11 @@
   background-color: transparent;
 }
 
-.parallax-img {
-  height: 100%;
-  border-radius: 5px;
+.sub_cultural .parallax-img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: center;
-  background-size: cover;
-  background-position: center;
   transform: translateZ(0);
   transition: transform 2.5s ease-out;
 }
@@ -37,14 +35,9 @@
 
 .sub_cultural {
   width: 100%;
-  height: 400px; /* Adjust the height as needed */
+  /* height: 400px; Adjust the height as needed */
   overflow: hidden;
   position: relative;
-}
-
-.parallax-img {
-  width: 100%;
-  height: 100%;
 }
 
 .sub_cultural:hover .parallax-img {
@@ -94,12 +87,35 @@
 
 .bottom_culture {
   font-weight: 400;
-  font-size: 45px;
+  font-size: 35px;
   letter-spacing: -0.03em;
   line-height: 1.1;
 
   font-family: "AftenScreen", sans-serif;
   width: 86%;
+}
+
+@media screen and (max-width: 745px) {
+  .sub_cultural {
+    height: 50vh;
+    margin-top: 30px;
+  }
+
+  .bottom_culture {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .bottom_culture_section {
+    margin-top: 70px;
+  }
+
+  .sub_cultural .parallax-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
 }
 @media screen and (max-width: 589px) {
   .sub_culture_para {
@@ -107,5 +123,53 @@
   }
   .sub_culture_topic {
     font-size: 18px;
+  }
+
+  .sub_cultural {
+    /* height: 30vh; */
+    width: 100%;
+  }
+
+  .cultural {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sub_cultural .parallax-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .bottom_culture_section {
+    margin-top: 50px;
+  }
+
+  .bottom_culture {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .sub_cultural:nth-of-type(1) {
+    grid-column: 1/3;
+  }
+
+  .culture_values {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cultural {
+    margin-bottom: 10px;
+  }
+  .sub_cultural {
+    height: 30vh;
+  }
+  .sub_cultural:nth-of-type(4) {
+    grid-column: 1/3;
+  }
+  .sub_cultural:nth-of-type(6) {
+    grid-column: 4/5;
   }
 }
