@@ -101,3 +101,11 @@
   font-family: "AftenScreen", sans-serif;
   width: 86%;
 }
+@media screen and (max-width: 589px) {
+  .sub_culture_para {
+    font-size: 17px;
+  }
+  .sub_culture_topic {
+    font-size: 18px;
+  }
+}

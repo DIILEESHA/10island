@@ -142,6 +142,8 @@
   .main_card {
     grid-template-columns: 1fr;
   }
+
+
 }
 
 @media screen and (max-width: 650px) {
