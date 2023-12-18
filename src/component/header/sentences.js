@@ -35,22 +35,24 @@ const SentenceAnimation = () => {
   }, []);
 
   return (
-    <div
-      className="sentence-container"
-      data-aos="fade-up-right"
-      data-aos-duration="2000"
-    >
-      <div className="senta">
-        <h4 className={`sentence jh ${currentIndex === 0 ? "show" : "hide"}`}>
-          {sentences[0]}
-        </h4>
-        <h1 className={`sentence ${currentIndex === 1 ? "show" : "hide"}`}>
-          {sentences[1]}
-        </h1>
+    <div className="sunta">
+      <div
+        className="sentence-container"
+        data-aos="fade-up-right"
+        data-aos-duration="2000"
+      >
+        <div className="senta">
+          <h4 className={`sentence jh ${currentIndex === 0 ? "show" : "hide"}`}>
+            {sentences[0]}
+          </h4>
+          <h1 className={`sentence ${currentIndex === 1 ? "show" : "hide"}`}>
+            {sentences[1]}
+          </h1>
 
-        <h1 className={`sentence ${currentIndex === 2 ? "show" : "hide"}`}>
-          {sentences[2]}
-        </h1>
+          <h1 className={`sentence ${currentIndex === 2 ? "show" : "hide"}`}>
+            {sentences[2]}
+          </h1>
+        </div>
       </div>
     </div>
   );

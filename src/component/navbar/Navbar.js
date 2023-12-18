@@ -1,16 +1,21 @@
 import React, { useState } from "react";
 import "./nav.css";
 import { Link } from "react-router-dom";
+import DarkModeToggle from "../DarkMode/DarkModeToggle";
 
 const Navbar = () => {
   const [open, isOpen] = useState(false);
   return (
     <div className="nav_container gty">
       <div className="nav_left">
-        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom"></div>
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom "
+          data-aos-duration="2000"
+        ></div>
 
         <a className="linka" href="/">
-          <h2 className="nav_title">14islands</h2>
+          <h2 className="nav_title">10islands</h2>
         </a>
       </div>
       <div className="nav_middle">
@@ -27,7 +32,22 @@ const Navbar = () => {
       </div>
       <div className="nav_right">
         <ul className="right_ul">
-          <li className="right_li">contact</li>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "flex-end",
+              gap: "30px",
+            }}
+          >
+            <li className="right_li">contact</li>
+            <li className="right_li">
+              <DarkModeToggle />
+            </li>
+          </div>
+          <li className="right_l">
+            <DarkModeToggle />
+          </li>
           <li className="right_l" onClick={() => isOpen(!open)}>
             Menu
           </li>

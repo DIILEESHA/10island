@@ -55,7 +55,7 @@ const Mainserve = () => {
     },
   };
   return (
-    <div>
+    <div className="meow">
       <motion.div
         className={`header_container ${
           animationComplete ? "animation-complete" : ""

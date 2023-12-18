@@ -9,6 +9,7 @@ import Journal from "./component/Journalist/Journal";
 import CustomCursor from "./component/cursor/CustomCursor";
 import Footer from "./component/footer/Footer";
 import Culture from "./component/culture/Culture";
+import DarkModeToggle from "./component/DarkMode/DarkModeToggle";
 
 function App() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

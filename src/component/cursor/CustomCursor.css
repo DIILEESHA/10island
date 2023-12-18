@@ -29,7 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff !important;
+  /* color: #fff !important; */
 }
 
 .ily {
@@ -45,6 +45,10 @@
 
 .rotate {
   animation: rotate 6s infinite linear;
+}
+
+.mko:hover {
+  animation: rotate 5s infinite linear;
 }
 
 .rotate:hover {
@@ -77,7 +81,7 @@
   .cursor.show {
     cursor: none;
   }
-  .ily{
+  .ily {
     width: 30px;
   }
 }
