@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 import DarkModeToggle from "../DarkMode/DarkModeToggle";
 
 const Navbar = () => {
+  const handleClicks = () => {
+    // Scroll to the top of the SingleItemDetail component
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   const [open, isOpen] = useState(false);
   return (
     <div className="nav_container gty">
@@ -14,7 +18,7 @@ const Navbar = () => {
           data-aos-duration="2000"
         ></div>
 
-        <a className="linka" href="/">
+        <a className="linka" href="/" onClick={handleClicks}>
           <h2 className="nav_title">10islands</h2>
         </a>
       </div>
@@ -46,14 +50,10 @@ const Navbar = () => {
             </li>
           </div>
 
-
-          
-
           {/* <h2 style={{zIndex:1}} onClick={() => isOpen(!open)}>gg</h2> */}
         </ul>
 
         <ul className="ela">
-
           <li className="right_l" onClick={() => isOpen(!open)}>
             Menu
           </li>
@@ -68,10 +68,23 @@ const Navbar = () => {
         style={{ right: open ? "0px" : "-50000vw" }}
       >
         <ul className="mobile_ul">
-          <li className="mobile_li">t</li>
-          <li className="mobile_li">t</li>
-          <li className="mobile_li">t</li>
-          <li className="mobile_li">t</li>
+          <li className="mobile_li" onClick={() => isOpen(!open)}>
+            work
+          </li>
+          <li className="mobile_li" onClick={() => isOpen(!open)}>
+            service
+          </li>
+          <li className="mobile_li" onClick={() => isOpen(!open)}>
+            <Link className="linka" to="/culture">
+              culture
+            </Link>
+          </li>
+          <li
+            className="mobile_li"
+            onClick={() => handleClicks && isOpen(!open)}
+          >
+            contact
+          </li>
         </ul>
       </div>
     </div>

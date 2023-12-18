@@ -59,6 +59,14 @@ body.dark-mode .meow {
   color: #ddd;
 }
 
+.mobile_ul {
+  background-color: #f2f2f2;
+  
+}
+body.dark-mode .mobile_ul {
+  background-color: #000;
+}
+
 body.dark-mode .footer_main {
   /* background-color: #000; */
   background-color: #1a1a1a;

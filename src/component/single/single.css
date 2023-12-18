@@ -139,6 +139,15 @@
   .sub_culture_para {
     font-size: 1px;
   }
+
+  .me {
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+  }
+  .texter {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 450px) {
