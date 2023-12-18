@@ -135,15 +135,19 @@
     flex-direction: column;
     /* background-color: #f2f2f2; */
 
+    justify-content: space-between;
     padding: 40px 20px;
     /* align-items: center; */
-    /* justify-content: center; */
     text-transform: uppercase;
-    gap: 20px;
     position: relative;
     font-weight: 400;
     margin-bottom: 30px;
   }
+
+  .mobala {
+    display: flex;
+    gap: 20px;
+    flex-direction: col  }
 
   .mobile_li {
     font-size: 20px;

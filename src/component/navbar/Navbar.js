@@ -68,23 +68,41 @@ const Navbar = () => {
         style={{ right: open ? "0px" : "-50000vw" }}
       >
         <ul className="mobile_ul">
-          <li className="mobile_li" onClick={() => isOpen(!open)}>
-            work
-          </li>
-          <li className="mobile_li" onClick={() => isOpen(!open)}>
-            service
-          </li>
-          <li className="mobile_li" onClick={() => isOpen(!open)}>
-            <Link className="linka" to="/culture">
-              culture
-            </Link>
-          </li>
-          <li
-            className="mobile_li"
-            onClick={() => handleClicks && isOpen(!open)}
-          >
-            contact
-          </li>
+          <div className="mobala">
+            <li className="mobile_li" onClick={() => isOpen(!open)}>
+              work
+            </li>
+            <li className="mobile_li" onClick={() => isOpen(!open)}>
+              service
+            </li>
+            <li className="mobile_li" onClick={() => isOpen(!open)}>
+              <Link className="linka" to="/culture">
+                culture
+              </Link>
+            </li>
+            <li
+              className="mobile_li"
+              onClick={() => handleClicks && isOpen(!open)}
+            >
+              contact
+            </li>
+          </div>
+
+          <div className="susa">
+            <h6
+              style={{
+                fontSize: "11px",
+                fontSmooth: "small",
+
+                fontWeight: "500",
+                lineHeight: "1.6",
+              }}
+            >
+              © 2023
+              <del style={{ margin: "0px 5px" }}>10ISLANDS © 2023.</del>
+              <br /> Made with passion by DILLEESHA
+            </h6>
+          </div>
         </ul>
       </div>
     </div>
