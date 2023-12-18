@@ -155,11 +155,13 @@
     grid-column: 1/3;
   }
 
-  .cultural {
+  .culture_values {
     display: flex;
     flex-direction: column;
   }
 
+
+ 
   .cultural {
     margin-bottom: 10px;
   }
