@@ -18,7 +18,7 @@ const Header = () => {
         y: 0,
         transition: { duration: 3 },
       });
-    }, 100);
+    }, 1800);
 
     return () => clearTimeout(timeoutId);
   }, [controls]);
@@ -28,7 +28,7 @@ const Header = () => {
     visible: { opacity: 1, scale: 1 },
     hover: {
       scale: 1.1,
-      color: "",
+      color: "#ff8c00",
       transition: {
         duration: 0.3,
         type: "spring",
