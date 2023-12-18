@@ -155,7 +155,7 @@
     grid-column: 1/3;
   }
 
-  .culture_values {
+  .cultural {
     display: flex;
     flex-direction: column;
   }
