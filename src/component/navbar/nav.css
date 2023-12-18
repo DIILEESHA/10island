@@ -34,7 +34,6 @@
   align-items: center;
   justify-content: flex-end;
   width: 100%;
-
 }
 
 .right_ul .right_li {
@@ -90,12 +89,24 @@
     justify-content: flex-end;
     list-style: none;
     text-transform: uppercase;
+    /* margin: 0 20px; */
     font-weight: 300;
   }
 
+  .nav_container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ela {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
   .nav_ul li,
   .right_ul .right_li {
     display: none;
+    flex: 0;
   }
 
   .nav_title {
@@ -136,5 +147,15 @@
   .mobile_li {
     font-size: 20px;
     list-style: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav_title {
+    font-size: 15px;
+  }
+
+  .right_l{
+    font-size: 15px;
   }
 }

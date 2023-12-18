@@ -45,14 +45,21 @@ const Navbar = () => {
               <DarkModeToggle />
             </li>
           </div>
-          <li className="right_l">
-            <DarkModeToggle />
-          </li>
+
+
+          
+
+          {/* <h2 style={{zIndex:1}} onClick={() => isOpen(!open)}>gg</h2> */}
+        </ul>
+
+        <ul className="ela">
+
           <li className="right_l" onClick={() => isOpen(!open)}>
             Menu
           </li>
-
-          {/* <h2 style={{zIndex:1}} onClick={() => isOpen(!open)}>gg</h2> */}
+          <li className="right_l">
+            <DarkModeToggle />
+          </li>
         </ul>
       </div>
 
