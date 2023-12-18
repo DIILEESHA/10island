@@ -2,7 +2,7 @@
 <p>10islands is a nimble team dedicated to designing and building lovable digital products, brands, and experiences. Our focus lies in the intersection of design and technology, creating seamless and immersive solutions for clients.</p>
 
    <p>
-        👉 <strong>Live Demo:</strong> <a href="">10islands Demo</a>
+        👉 <strong>Live Demo:</strong> <a href="https://10island.vercel.app/">10islands Demo</a>
     </p>
 
  ## Features
@@ -19,7 +19,7 @@
 - 
   ## How to Run Locally
 
-1. Clone the repository: `git clone https://github.com/DIILEESHA/Movie-Recap.git`
+1. Clone the repository: `git clone https://github.com/DIILEESHA/10island.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm start`
 
