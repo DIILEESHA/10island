@@ -121,11 +121,13 @@
   }
   .bottom_footer {
     display: flex;
-    flex-direction: column;
+    gap: 20px;
+    flex-direction: column-reverse;
   }
 
   .copyright {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    font-size: 14px;
   }
 
   .footer_ul {
