@@ -69,159 +69,159 @@ const Culture = () => {
   }, []);
 
   return (
-    <motion.div
-      className={`header_container ${
-        animationComplete ? "animation-complete" : ""
-      }`}
-      animate={controls}
-      initial={{ y: 50, opacity: -1, x: 0 }}
-      {...bind()}
-      style={{ zIndex: 1 }}
-    >
-      <div>
-        <ParticleComponent />
-      </div>
-      <div className="header_sub  duke">
-        <div
-          className={`header_left ${animationComplete ? "fade-in" : ""}`}
-        ></div>
-        <motion.div
-          className={`header_middle  ${animationComplete ? "fade-in" : ""}`}
-          initial="hidden"
-          animate="visible"
-          whileHover="hover"
-          variants={textVariants}
-          onClick={() => setShowImages(true)}
-        >
-          <h3
-            className="header_title"
-            data-aos="fade-up-left"
-            data-aos-duration="2000"
+    <div className="header_container">
+      <motion.div
+        data-header-container={animationComplete ? "animation-complete" : ""}
+        animate={controls}
+        initial={{ y: 50, opacity: -1, x: 0 }}
+        {...bind()}
+        style={{ zIndex: 1 }}
+      >
+        <div>
+          <ParticleComponent />
+        </div>
+        <div className="header_sub  duke">
+          <div
+            className={`header_left ${animationComplete ? "fade-in" : ""}`}
+          ></div>
+          <motion.div
+            className={`header_middle  ${animationComplete ? "fade-in" : ""}`}
+            initial="hidden"
+            animate="visible"
+            whileHover="hover"
+            variants={textVariants}
+            onClick={() => setShowImages(true)}
           >
-            MEET THE ISLANDERS
-          </h3>
-          <p
-            className="header_para"
-            data-aos="fade-up-left"
-            data-aos-duration="2000"
-          >
-            EVERY AWESOME THING YOU SEE EXISTS BECAUSE SOMEONE LIKE YOU DECIDED
-            TO MAKE IT.
-          </p>
-        </motion.div>
-        <div
-          className={`header_right ${animationComplete ? "fade-in" : ""}`}
-        ></div>
-      </div>
+            <h3
+              className="header_title"
+              data-aos="fade-up-left"
+              data-aos-duration="2000"
+            >
+              MEET THE ISLANDERS
+            </h3>
+            <p
+              className="header_para"
+              data-aos="fade-up-left"
+              data-aos-duration="2000"
+            >
+              EVERY AWESOME THING YOU SEE EXISTS BECAUSE SOMEONE LIKE YOU
+              DECIDED TO MAKE IT.
+            </p>
+          </motion.div>
+          <div
+            className={`header_right ${animationComplete ? "fade-in" : ""}`}
+          ></div>
+        </div>
 
-      <div className={`header_grid no ${animationComplete ? "fade-in" : ""}`}>
+        <div className={`header_grid no ${animationComplete ? "fade-in" : ""}`}>
+          <div
+            className="header_sub_grid "
+            data-aos="fade-up-right"
+            data-aos-duration="2000"
+          >
+            <h2 className="grid_text ">team</h2>
+          </div>
+          <div className="header_sub_grid buha">
+            <h2 className="grid_text"></h2>
+          </div>
+          <div className="header_sub_grid">
+            <h2 className="grid_text sm  sm2">&</h2>
+          </div>
+
+          <div
+            className="header_sub_grid"
+            data-aos="fade-up-left"
+            data-aos-duration="2000"
+          >
+            <h2 className="grid_text  lk sm2">culture.</h2>
+          </div>
+
+          <div className="header_sub_grider">
+            <div className="header_sub_grid lgr">
+              <h2 className="grid_text sm  lg">
+                & <span>culture</span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div className="cultural">
+          {culture.slice(0, 6).map((serves) => (
+            <div
+              className="sub_cultural "
+              data-aos="fade-up-left"
+              data-aos-duration="2000"
+            >
+              <img className="parallax-img" src={serves.img} alt="" />
+            </div>
+          ))}
+        </div>
+
+        <div className="culture_values">
+          <div className="cultrue_sub_values">
+            <h2
+              className="values_title"
+              data-aos="fade-up-left"
+              data-aos-duration="2000"
+            >
+              OUR VALUES
+            </h2>
+          </div>
+          <div className="cultrue_sub_values">
+            <div className="demo" data-aos="fade-up" data-aos-duration="2000">
+              <h2 className="sub_culture_topic">Be inclusive</h2>
+              <p className="sub_culture_para">
+                Foster an open environment built on trust, where everyone feels
+                empowered to be themselves and make contributions.
+              </p>
+            </div>
+            <div
+              className="demo"
+              data-aos="fade-up-left"
+              data-aos-duration="3000"
+            >
+              <h2 className="sub_culture_topic">Make waves</h2>
+              <p className="sub_culture_para">
+                Take pride in your craft. Nurture, stimulate and hone it. People
+                always recognize when something is made with passion.
+              </p>
+            </div>
+            <div
+              className="demo"
+              data-aos="fade-up-left"
+              data-aos-duration="3000"
+            >
+              <h2 className="sub_culture_topic">Care to share</h2>
+              <p className="sub_culture_para">
+                Communication is the key to successful collaboration. Keep
+                people informed, and share your feedback, learnings and wins.
+              </p>
+            </div>
+            <div
+              className="demo"
+              data-aos="fade-up-left"
+              data-aos-duration="3000"
+            >
+              <h2 className="sub_culture_topic">Enjoy the ride</h2>
+              <p className="sub_culture_para">
+                Embrace every challenge as a creative opportunity. Be brave,
+                take risks and explore ideas. But most of all, have fun!
+              </p>
+            </div>
+          </div>
+        </div>
         <div
-          className="header_sub_grid "
+          className="bottom_culture_section"
           data-aos="fade-up-right"
           data-aos-duration="2000"
         >
-          <h2 className="grid_text ">team</h2>
+          <p className="bottom_culture">
+            <span className="cooler">Out of the box —</span>
+            Our international team represents a mix of experiences, talents, and
+            skills that enrich our collective creativity.
+          </p>
         </div>
-        <div className="header_sub_grid buha">
-          <h2 className="grid_text"></h2>
-        </div>
-        <div className="header_sub_grid">
-          <h2 className="grid_text sm  sm2">&</h2>
-        </div>
-
-        <div
-          className="header_sub_grid"
-          data-aos="fade-up-left"
-          data-aos-duration="2000"
-        >
-          <h2 className="grid_text  lk sm2">culture.</h2>
-        </div>
-
-        <div className="header_sub_grider">
-          <div className="header_sub_grid lgr">
-            <h2 className="grid_text sm  lg">
-              & <span>culture</span>
-            </h2>
-          </div>
-        </div>
-      </div>
-      <div className="cultural">
-        {culture.slice(0, 6).map((serves) => (
-          <div
-            className="sub_cultural "
-            data-aos="fade-up-left"
-            data-aos-duration="2000"
-          >
-            <img className="parallax-img" src={serves.img} alt="" />
-          </div>
-        ))}
-      </div>
-
-      <div className="culture_values">
-        <div className="cultrue_sub_values">
-          <h2
-            className="values_title"
-            data-aos="fade-up-left"
-            data-aos-duration="2000"
-          >
-            OUR VALUES
-          </h2>
-        </div>
-        <div className="cultrue_sub_values">
-          <div className="demo" data-aos="fade-up" data-aos-duration="2000">
-            <h2 className="sub_culture_topic">Be inclusive</h2>
-            <p className="sub_culture_para">
-              Foster an open environment built on trust, where everyone feels
-              empowered to be themselves and make contributions.
-            </p>
-          </div>
-          <div
-            className="demo"
-            data-aos="fade-up-left"
-            data-aos-duration="3000"
-          >
-            <h2 className="sub_culture_topic">Make waves</h2>
-            <p className="sub_culture_para">
-              Take pride in your craft. Nurture, stimulate and hone it. People
-              always recognize when something is made with passion.
-            </p>
-          </div>
-          <div
-            className="demo"
-            data-aos="fade-up-left"
-            data-aos-duration="3000"
-          >
-            <h2 className="sub_culture_topic">Care to share</h2>
-            <p className="sub_culture_para">
-              Communication is the key to successful collaboration. Keep people
-              informed, and share your feedback, learnings and wins.
-            </p>
-          </div>
-          <div
-            className="demo"
-            data-aos="fade-up-left"
-            data-aos-duration="3000"
-          >
-            <h2 className="sub_culture_topic">Enjoy the ride</h2>
-            <p className="sub_culture_para">
-              Embrace every challenge as a creative opportunity. Be brave, take
-              risks and explore ideas. But most of all, have fun!
-            </p>
-          </div>
-        </div>
-      </div>
-      <div
-        className="bottom_culture_section"
-        data-aos="fade-up-right"
-        data-aos-duration="2000"
-      >
-        <p className="bottom_culture">
-          <span className="cooler">Out of the box —</span>
-          Our international team represents a mix of experiences, talents, and
-          skills that enrich our collective creativity.
-        </p>
-      </div>
-    </motion.div>
+      </motion.div>
+    </div>
   );
 };
 

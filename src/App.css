@@ -34,7 +34,7 @@ body {
 
 @media screen and (max-width: 1000px) {
   .linka {
-    cursor: none;
+    /* cursor: none; */
   }
 }
 
