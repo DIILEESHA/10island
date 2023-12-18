@@ -20,9 +20,6 @@ const Mainserve = () => {
   //   },
   // };
 
-
-
-  
   const handleClicks = () => {
     // Scroll to the top of the SingleItemDetail component
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -100,7 +97,7 @@ const Mainserve = () => {
         </div>
       </motion.div>
 
-      <div className="main_card">
+      <div className="main_card" id="work">
         {Serve.map((serves, index) => (
           <Link
             className="linka"

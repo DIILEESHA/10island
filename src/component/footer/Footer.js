@@ -6,7 +6,7 @@ import { FaRegHeart } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="footer_main">
+    <div className="footer_main" id="contact">
       <div className="footer_container">
         <div
           className="bottom_para_section_footer"

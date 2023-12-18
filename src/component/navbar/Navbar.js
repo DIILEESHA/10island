@@ -2,11 +2,17 @@ import React, { useState } from "react";
 import "./nav.css";
 import { Link } from "react-router-dom";
 import DarkModeToggle from "../DarkMode/DarkModeToggle";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const handleClicks = () => {
     // Scroll to the top of the SingleItemDetail component
     window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const handleClicksBottom = () => {
+    // Scroll to the top of the SingleItemDetail component
+    window.scrollTo({ bottom: 0, behavior: "smooth" });
   };
   const [open, isOpen] = useState(false);
   return (
@@ -24,7 +30,18 @@ const Navbar = () => {
       </div>
       <div className="nav_middle">
         <ul className="nav_ul">
-          <li>work</li>
+          <li>
+            <ScrollLink
+              to="work" // Specify the ID of the target element (footer in this case)
+              spy={true}
+              smooth={true}
+              style={{ cursor: "pointer" }}
+              offset={-70}
+              duration={1500}
+            >
+              work
+            </ScrollLink>
+          </li>
           <li>services</li>
 
           <li>
@@ -44,7 +61,18 @@ const Navbar = () => {
               gap: "20px",
             }}
           >
-            <li className="right_li">contact</li>
+            <li className="right_li">
+              <ScrollLink
+                to="contact" // Specify the ID of the target element (footer in this case)
+                spy={true}
+                smooth={true}
+                style={{ cursor: "pointer" }}
+                offset={-70}
+                duration={1500}
+              >
+                contact
+              </ScrollLink>
+            </li>
             <li className="right_li">
               <DarkModeToggle />
             </li>
@@ -98,7 +126,7 @@ const Navbar = () => {
             </li>
             <li
               className="mobile_li"
-              onClick={() => handleClicks && isOpen(!open)}
+              onClick={() => handleClicksBottom && isOpen(!open)}
             >
               contact
             </li>
